@@ -1,0 +1,13 @@
+{
+    "name":"my_library/my_library",
+    "description":"Questa è una prova di libreria.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "MiaLibreria\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
