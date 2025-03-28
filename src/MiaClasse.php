@@ -5,7 +5,11 @@ namespace MiaLibreria;
 class MiaClasse {
     public function saluta($nome) {
         return "Ciao, " . $nome . "! ciao";
-    } 
+    }
+    
+    public function help() {
+        return "hai bisogno di aiuto?";
+    }
 }
 
 
